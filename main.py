@@ -30,7 +30,8 @@ def filter(vocab):
 			
 if __name__ ==  '__main__':
 	# actual_regex = ['GO612', 'G0611', 'LT566', 'QML29', 'LT100', 'LTMN55']
-	actual_regex = ['TIRS40563', 'PIW30546', 'TICSA3945', 'POL940325', 'GICGH9485', 'TJY9485']
+	# actual_regex = ['TIRS40563', 'PIW30546', 'TICSA3945', 'POL940325', 'GICGH9485', 'TJY9485']
+	actual_regex = ['TMRQ40561', 'PIV30146', 'TICSV3941', 'QOM940315', 'GLDGH9481', 'MJY1481']
 	print('actual : ', actual_regex)
 	
 	# dataset, word_list = generate_data(actual_regex, num_instances=10,
